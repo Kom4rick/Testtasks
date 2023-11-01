@@ -1,4 +1,4 @@
-package main.java;
+
 
 import java.io.*;
 
@@ -29,7 +29,7 @@ public class Task2 {
             } else if (Math.pow(Integer.parseInt(massiv[0]) - koordinatyCentra[0], 2) + Math.pow(Integer.parseInt(massiv[1]) - koordinatyCentra[1], 2) > Math.pow(radius, 2)) {
                 System.out.print(2 + "\n");
             } else {
-                System.out.print(3 + "\n");
+                System.out.print(0 + "\n");
             }
         }
         br.close();

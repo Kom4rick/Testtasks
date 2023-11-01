@@ -1,4 +1,4 @@
-package main.java;
+
 
 public class Task1 {
     public static void main(String[] args) {
@@ -14,7 +14,7 @@ public class Task1 {
         }
 
         int current = 0;
-        System.out.print("Path: ");
+        
         do {
             System.out.print(array[current]);
             current = (current + m - 1) % n;
